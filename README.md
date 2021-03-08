@@ -22,4 +22,4 @@ THEN I am presented with a responsive layout that adapts to my viewpo
 
 #References: 
 
-#Live webpage link:  #Repository link: https://github.com/DreJI95/MyPortfolio
+#Live webpage link: https://dreji95.github.io/MyPortfolio/ #Repository link: https://github.com/DreJI95/MyPortfolio
