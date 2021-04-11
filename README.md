@@ -21,5 +21,8 @@ WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewpo
 
 #References: 
+CSS Styling images: https://www.w3schools.com/css/css3_images.asp
+CSS Border images: https://www.w3schools.com/css/css3_border_images.asp
+CSS After & hover: https://stackoverflow.com/questions/13233991/combine-after-with-hover
 
 #Live webpage link: https://dreji95.github.io/MyPortfolio/ #Repository link: https://github.com/DreJI95/MyPortfolio
