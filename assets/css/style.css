@@ -1,197 +1,99 @@
-* {
+body {
 margin: 0;
 padding: 0;
-box-sizing: border-box;
-background-color: rgb(94, 189, 245);
+background: linear-gradient( rgb(165, 51, 137),rgb(94, 189, 245) , rgb(4, 54, 83) );
+color: rgb(255, 255, 255);
 }
-header{
-  background-color: rgb(44, 152, 202);
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
-  width:100%;
+
+.hero img{
+  display:flex;
+  width: 100%;
+  height: 250px;
+}
+
+header, footer{
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+ background: linear-gradient( rgb(165, 51, 137),rgb(94, 189, 245), rgb(4, 54, 83));
+}
+
+header div, footer div{
+  display: inline-flex;
+  margin: 50px;
+}
+
+li {
+  list-style: none;
+  text-decoration-line: none;
 }
 
 a{
   text-decoration-line: none;
-  background-color: rgba(65, 105, 225, 60%) ;
+  color:white;
 }
 
 header h1 a{
-  color: rgb(235, 129, 8);
   text-shadow: 2px 2px 10px rgb(42, 20, 139);
-  text-decoration: none;
-  padding-left: 10px;
+}
+
+header h1{
   font-size: 48px;
 }
 
-header nav ul {
-  display: inline-flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
+header div ,footer div{
+  font-size: 30px;
 }
 
-header nav ul li{
-display: flex;
-flex-wrap: wrap;
-flex-direction: row;
-/* flex-direction is set to row, making the horizontal or x-axis the main axis and the vertical or y-axis the cross axis.| 
-flex-direction to column, then the main axis and the cross axis would be flipped */
-/* align-items: center; */
-padding-left: 10px;
-align-items: center;
-font-size: 28px;
+.about-me-image {
+  width: 12%;
+  border-radius: 15%;
 }
 
+.about-me article {
+  width: 45%;
+}
+
+.project-1 img {
+  width: 40%;
+  height: 300px;
+  opacity: 0.4;
+  transition: width 3s, height 3s;
+}
+
+.project-2 img, .project-3 img, .project-4 img, .project-5 img {
+  width: 30%;
+  height: 150px;
+  opacity: 0.4;
+  transition: width 3s, height 3s;
+}
+
+.project-img img:hover {
+  width: 65%;
+  height: 500px;
+  opacity: 1;
+  transition: width 3s, height 3s;
+}
+
+footer{
+  background: linear-gradient( rgb(4, 54, 83),rgb(94, 189, 245) ,rgb(165, 51, 137));
+}
+
+footer h2{
+  font-size: 32px;
+}
 
 @media screen and (max-width: 980px) {
   header nav ul li{
-    width: 40%;
-    flex: 2 20%;
   }
 }
 
 @media screen and (max-width: 768px) {
   header nav ul li{
-    width: 50%;
-    flex: 2 50%;
   }
 }
 
 @media screen and (max-width: 575px) {
   header nav ul li{
-    width: 60%;
-    flex: 2 20%;
   }
-}
-/*
-
-
-header {
-padding-top: 10px;
-padding-right: 15px;
-padding-bottom: 20px;
-padding-left: 25px;
-background-color: #39a6b2;
-}
-
-body {
-font-family: Helvetica, Arial, sans-serif;
-color:#39a6b2;
-}
-
-h1 {
-font-size: 100px;
-}
-
-header h1 {
-font-weight: bold;
-font-size: 36px;
-margin: 0;
-display: inline;
-}
-
-header a {
-text-decoration: none;
-font-weight: bold;
-font-size: 40px;
-}
-
-header nav {
-float: right;
-margin: 7px 0;
-}
-
-header nav ul li {
-display: inline;
-}
-
-header nav ul li a {
-margin: 0 30px;
-font-weight: lighter;
-font-size: 22px;
-}
-
-footer {
-background: #fce138;
-width: 100%;
-padding: 40px 35px;
-}
-
-footer h2 {
-display: inline;
-color: #024e76;
-font-size: 30px;
-margin: 0;
-}
-
-footer div {
-float: right;
-line-height: 1.5;
-text-align: right;
-}
-
-footer a {
-color: #024e76;
-}
-
-section
-{
-padding: 60px;
-}
-
-.hero {
-background-image: url("../images/hero-bg.jpg");
-height: 600px;
-background-size: cover;
-background-position: center;
-position: relative;
-}
-
-.contact {
-width: auto;
-margin: 0 auto 0 auto;
-background: #024e76;
-color: #fce138;
-overflow: auto;
-text-align: center
-}
-
-.contact h2{
-  color: #fce138;
-  font-size: 32px;
-}
-
-.contact-info h3 {
-color: #fce138;
-font-size: 32px;
-width: 410px;
-display: inline-block;
-margin: 30px 0 0 60px;
-}
-
-.contact-info
-{
-  text-align: left;
-  margin-left: 200px;
-  margin-right: auto;
-}
-
-.contact-info iframe {
-width: 400px;
-height: 400px;
-float: left;
-}
-
-.contact-info p, .contact-info address {
-width: 410px;
-display: inline-block;
-vertical-align: top;
-margin: 30px 0 0 60px;
-color: white;
-}
-
-.contact-info a {
-color: #fce138;
 }
