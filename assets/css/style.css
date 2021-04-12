@@ -19,7 +19,7 @@ header, footer{
  display: flex;
  justify-content: space-around;
  align-items: center;
- background: linear-gradient( rgb(165, 51, 137),rgb(94, 189, 245), rgb(4, 54, 83));
+ background: linear-gradient(rgb(94, 189, 245), rgb(4, 54, 83));
 }
 
 header h1, footer h2{
@@ -47,11 +47,14 @@ header h1{
 
 header a:hover, footer a:hover {
   border-bottom: solid;
+  border-color: rgb(213, 184, 236);
 }
 
 .about-me-image {
   width: 17%;
   border-radius: 15%;
+  border-color: rgb(229, 147, 164);
+  border-style: solid;
 }
 
 .about-me article {
@@ -63,14 +66,12 @@ header a:hover, footer a:hover {
   width: 40%;
   height: 300px;
   opacity: 0.4;
-  transition: width 3s, height 3s, opacity 3s;
 }
 
 .project-2 img, .project-3 img, .project-4 img, .project-5 img {
   width: 30%;
   height: 170px;
   opacity: 0.4;
-  transition: width 3s, height 3s, opacity 3s;
 }
 
 .project-img img:hover {
@@ -81,17 +82,30 @@ header a:hover, footer a:hover {
 
 .project-img img{
   border-style: solid;
-  border-box: 40px;
+  border-block-width: 10px;
 }
-
 
 .project-text{
   position: relative;
   font-size: 20px;
   bottom: 50px;
-  background-color: darkcyan;
+  background-color:rgb(4, 54, 83);
   border-style: solid;
   width: 10%
+}
+
+.project-text, .project-img img {
+  border-color: rgb(229, 147, 164);
+  transition: width 3s, height 3s, opacity 3s, border-color 3s;
+}
+
+.project-text:hover, .project-img img:hover {
+  border-color: rgb(213, 184, 236);
+  transition: width 3s, height 3s, opacity 3s, border-color 3s;
+}
+
+.projects-container{
+
 }
 
 .resume button {
@@ -111,7 +125,7 @@ header a:hover, footer a:hover {
 }
 
 footer{
-  background: linear-gradient( rgb(4, 54, 83),rgb(94, 189, 245) ,rgb(165, 51, 137));
+  background: linear-gradient( rgb(4, 54, 83),rgb(94, 189, 245));
 }
 
 footer div{
@@ -133,6 +147,12 @@ footer h2{
 
   .about-me-image {
     width: 30%;
+  }
+
+  
+  .project-img img{
+    width: 100%;
+    opacity: 1;
   }
 }
 
