@@ -22,18 +22,17 @@ header, footer{
  background: linear-gradient( rgb(165, 51, 137),rgb(94, 189, 245), rgb(4, 54, 83));
 }
 
+header h1, footer h2{
+  margin: 20px;
+ }
+
 header div, footer div{
   display: inline-flex;
   font-size: 30px;
   margin: 50px;
 }
 
-li {
-  list-style: none;
-  text-decoration-line: none;
-}
-
-a{
+a {
   text-decoration-line: none;
   color:white;
 }
@@ -46,13 +45,17 @@ header h1{
   font-size: 48px;
 }
 
+header a:hover, footer a:hover {
+  border-bottom: solid;
+}
+
 .about-me-image {
-  width: 12%;
+  width: 17%;
   border-radius: 15%;
 }
 
 .about-me article {
-  width: 45%;
+  width: 50%;
   font-size: 25px;
 }
 
@@ -92,7 +95,7 @@ header h1{
 }
 
 .resume button {
-  width: 6%;
+  width: 12%;
   height: 50px;
   margin-left: 30px;
   color: rgb(31, 98, 124);
@@ -120,16 +123,44 @@ footer h2{
 }
 
 @media screen and (max-width: 980px) {
-  header nav ul li{
+  .resume button{
+    width: 40%;
+  }
+
+  .about-me article{
+    width: 80%;
+  }
+
+  .about-me-image {
+    width: 30%;
   }
 }
 
 @media screen and (max-width: 768px) {
-  header nav ul li{
+  .resume button{
+    width: 40%;
+  }
+
+  .about-me article{
+    width: 80%;
+  }
+
+  .about-me-image {
+    width: 40%;
   }
 }
 
 @media screen and (max-width: 575px) {
-  header nav ul li{
+  .resume button{
+    width: 20%;
   }
+
+  .about-me article{
+    width: 100%;
+  }
+
+  .about-me-image {
+    width: 40%;
+  }
+
 }
