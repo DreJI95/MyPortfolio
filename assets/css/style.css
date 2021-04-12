@@ -5,6 +5,10 @@ background: linear-gradient( rgb(165, 51, 137),rgb(94, 189, 245) , rgb(4, 54, 83
 color: rgb(255, 255, 255);
 }
 
+main {
+  margin: 40px;
+}
+
 .hero img{
   display:flex;
   width: 100%;
@@ -49,20 +53,21 @@ header h1{
 
 .about-me article {
   width: 45%;
+  font-size: 25px;
 }
 
 .project-1 img {
   width: 40%;
   height: 300px;
   opacity: 0.4;
-  transition: width 3s, height 3s;
+  transition: width 3s, height 3s, opacity 3s;
 }
 
 .project-2 img, .project-3 img, .project-4 img, .project-5 img {
   width: 30%;
-  height: 150px;
+  height: 170px;
   opacity: 0.4;
-  transition: width 3s, height 3s;
+  transition: width 3s, height 3s, opacity 3s;
 }
 
 .project-img img:hover {
@@ -71,15 +76,25 @@ header h1{
   opacity: 1;
 }
 
+.project-img img{
+  border-style: solid;
+  border-box: 40px;
+}
+
+
 .project-text{
   position: relative;
+  font-size: 20px;
   bottom: 50px;
+  background-color: darkcyan;
+  border-style: solid;
+  width: 10%
 }
 
 .resume button {
-  width: 5%;
+  width: 6%;
   height: 50px;
-  margin: 30px;
+  margin-left: 30px;
   color: rgb(31, 98, 124);
   font-size:large;
   background-color: rgb(229, 147, 164);

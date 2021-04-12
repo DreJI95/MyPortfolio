@@ -25,5 +25,6 @@ CSS Styling images: https://www.w3schools.com/css/css3_images.asp
 CSS Border images: https://www.w3schools.com/css/css3_border_images.asp
 CSS After & hover: https://stackoverflow.com/questions/13233991/combine-after-with-hover
 CSS Gradient: https://www.w3schools.com/css/css3_gradients.asp
+CSS Positioning Image text: https://www.w3schools.com/howto/howto_css_image_text.asp
 
 #Live webpage link: https://dreji95.github.io/MyPortfolio/ #Repository link: https://github.com/DreJI95/MyPortfolio
