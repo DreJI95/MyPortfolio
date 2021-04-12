@@ -24,5 +24,6 @@ THEN I am presented with a responsive layout that adapts to my viewpo
 CSS Styling images: https://www.w3schools.com/css/css3_images.asp
 CSS Border images: https://www.w3schools.com/css/css3_border_images.asp
 CSS After & hover: https://stackoverflow.com/questions/13233991/combine-after-with-hover
+CSS Gradient: https://www.w3schools.com/css/css3_gradients.asp
 
 #Live webpage link: https://dreji95.github.io/MyPortfolio/ #Repository link: https://github.com/DreJI95/MyPortfolio

@@ -20,6 +20,7 @@ header, footer{
 
 header div, footer div{
   display: inline-flex;
+  font-size: 30px;
   margin: 50px;
 }
 
@@ -39,10 +40,6 @@ header h1 a{
 
 header h1{
   font-size: 48px;
-}
-
-header div ,footer div{
-  font-size: 30px;
 }
 
 .about-me-image {
@@ -72,11 +69,35 @@ header div ,footer div{
   width: 65%;
   height: 500px;
   opacity: 1;
-  transition: width 3s, height 3s;
+}
+
+.project-text{
+  position: relative;
+  bottom: 50px;
+}
+
+.resume button {
+  width: 5%;
+  height: 50px;
+  margin: 30px;
+  color: rgb(31, 98, 124);
+  font-size:large;
+  background-color: rgb(229, 147, 164);
+  transition: background-color 1s;
+}
+
+.resume button:hover{
+  color: rgb(26, 7, 196);
+  background-color: rgb(213, 184, 236);
+  transition: background-color 1s;
 }
 
 footer{
   background: linear-gradient( rgb(4, 54, 83),rgb(94, 189, 245) ,rgb(165, 51, 137));
+}
+
+footer div{
+  font-size: 23px;
 }
 
 footer h2{
