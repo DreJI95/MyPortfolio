@@ -50,6 +50,13 @@ header a:hover, footer a:hover {
   border-color: rgb(213, 184, 236);
 }
 
+.about-me {
+  display: flex;
+  flex: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+
 .about-me-image {
   width: 17%;
   border-radius: 15%;
@@ -63,20 +70,20 @@ header a:hover, footer a:hover {
 }
 
 .project-1 img {
-  width: 40%;
+  width: 95%;
   height: 300px;
   opacity: 0.4;
 }
 
 .project-2 img, .project-3 img, .project-4 img, .project-5 img {
-  width: 30%;
+  width: 90%;
   height: 170px;
   opacity: 0.4;
 }
 
 .project-img img:hover {
-  width: 65%;
-  height: 500px;
+  width: 85%;
+  height: 400px;
   opacity: 1;
 }
 
@@ -91,7 +98,7 @@ header a:hover, footer a:hover {
   bottom: 50px;
   background-color:rgb(4, 54, 83);
   border-style: solid;
-  width: 10%
+  width: 30%
 }
 
 .project-text, .project-img img {
@@ -104,8 +111,15 @@ header a:hover, footer a:hover {
   transition: width 3s, height 3s, opacity 3s, border-color 3s;
 }
 
-.projects-container{
+.projects-even-and-odd{
+  display: inline-flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
 
+.projects-section {
+  width: 80%;
+  margin-left: 150px;
 }
 
 .resume button {
@@ -154,6 +168,33 @@ footer h2{
     width: 100%;
     opacity: 1;
   }
+
+  .projects-even-and-odd {
+    width: 80%;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
+  .projects-even-and-odd {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .projects-section {
+    width: 100%;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  header, footer {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  header a,footer a{
+    border-bottom: solid;
+    border-color: rgb(213, 184, 236);
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -168,11 +209,43 @@ footer h2{
   .about-me-image {
     width: 40%;
   }
+
+  .projects-even-and-odd {
+    width: 80%;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
+  .projects-even-and-odd {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .projects-section {
+    width: 100%;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  header, footer {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  header a,footer a{
+    border-bottom: solid;
+    border-color: rgb(213, 184, 236);
+  }
 }
 
 @media screen and (max-width: 575px) {
   .resume button{
     width: 20%;
+  }
+
+  .about-me {
+    display: flex;
+    flex-wrap: wrap;
   }
 
   .about-me article{
@@ -181,6 +254,27 @@ footer h2{
 
   .about-me-image {
     width: 40%;
+  }
+
+  .projects-even-and-odd {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .projects-section {
+    width: 100%;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  header, footer {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  header a,footer a{
+    border-bottom: solid;
+    border-color: rgb(213, 184, 236);
   }
 
 }
