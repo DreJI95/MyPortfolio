@@ -27,4 +27,4 @@ CSS After & hover: https://stackoverflow.com/questions/13233991/combine-after-wi
 CSS Gradient: https://www.w3schools.com/css/css3_gradients.asp
 CSS Positioning Image text: https://www.w3schools.com/howto/howto_css_image_text.asp
 
-#Live webpage link: https://dreji95.github.io/MyPortfolio/ #Repository link: https://github.com/DreJI95/MyPortfolio
+#Live webpage link: https://dreji95.github.io/my-portfolio/ #Repository link: https://github.com/DreJI95/MyPortfolio
